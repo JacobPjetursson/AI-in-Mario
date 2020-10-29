@@ -16,3 +16,6 @@ The following libraries are required:
 4. [JDOM](https://mvnrepository.com/artifact/org.jdom/jdom/1.1)
 
 The main class is *src/ch.idsia/scenarios/Play.java*.
+
+## How it works
+The red line shown in the gif is the path that the A* algorithm suggests. This path is computed by using an A* algorithm and by using the code in the game engine to predict movement and behaviour of the enemies in the game. The heuristic function returns the distance to the princess at the end of the level. The A* is penalized for losing lives (going from big mario to small mario) and for jumping into gaps. 
