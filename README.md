@@ -2,7 +2,7 @@
 This repository features a pathfinder AI (A* algorithm) for the 2009 Mario AI Competition. The repository is a clone of [github.com/LHerskind/MarioA_Neural](https://github.com/LHerskind/MarioA_Neural), which is partially authored by me.
 The work done is inspired by Robin Baumgarten.
 
-## How it looks like
+## How it looks like (NOT sped up)
 ### Difficulty 2
 ![lvl2](gifs/lvl2.gif)
 ### Difficulty 15
